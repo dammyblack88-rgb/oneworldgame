@@ -1,0 +1,552 @@
+[
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L10_A/Material/MI/MI_CHA_L10_A_Wall_01_2.MI_CHA_L10_A_Wall_01_2",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L10_A_Wall_01_2_4c3b35cc.MI_Night_MI_CHA_L10_A_Wall_01_2_4c3b35cc",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.2691119249256122,
+      "AmountOff": 0.6446669718471045,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L8_A/Material/MI/MI_CHA_L08_A_Wall_01_1.MI_CHA_L08_A_Wall_01_1",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L08_A_Wall_01_1_92e70d87.MI_Night_MI_CHA_L08_A_Wall_01_1_92e70d87",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.3795384145876248,
+      "AmountOff": 0.6860769054703593,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L7_A/Material/MI/MI_CHA_L07_A_Wall_01_2.MI_CHA_L07_A_Wall_01_2",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L07_A_Wall_01_2_4f372474.MI_Night_MI_CHA_L07_A_Wall_01_2_4f372474",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.2737750820172427,
+      "AmountOff": 0.646415655756466,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHa_L1_A/Material/MI/MI_CHA_L01_A_Entrance_01_1.MI_CHA_L01_A_Entrance_01_1",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L01_A_Entrance_01_1_27354a21.MI_Night_MI_CHA_L01_A_Entrance_01_1_27354a21",
+    "storefront": true,
+    "values": {
+      "Exposure": 2.05,
+      "AmountOff": 0.22,
+      "BlindsBrightness": 0.8
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHa_L1_A/Material/MI/MI_CHA_L01_A_Wall_01_2.MI_CHA_L01_A_Wall_01_2",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L01_A_Wall_01_2_2f6f1ad3.MI_Night_MI_CHA_L01_A_Wall_01_2_2f6f1ad3",
+    "storefront": true,
+    "values": {
+      "Exposure": 2.05,
+      "AmountOff": 0.22,
+      "BlindsBrightness": 0.8
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/E/Kit_Bldg_SFE_L4_A/Material/MI/MI_SFE_L4_A1_CornerExL_01_1.MI_SFE_L4_A1_CornerExL_01_1",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFE_L4_A1_CornerExL_01_1_3f07612e.MI_Night_MI_SFE_L4_A1_CornerExL_01_1_3f07612e",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.2484817273212787,
+      "AmountOff": 0.6369306477454795,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/E/Kit_Bldg_SFE_L4_A/Material/MI/MI_SFE_L4_A1_Wall_01_1.MI_SFE_L4_A1_Wall_01_1",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFE_L4_A1_Wall_01_1_59e5b761.MI_Night_MI_SFE_L4_A1_Wall_01_1_59e5b761",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.2904623483634698,
+      "AmountOff": 0.6526733806363012,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/E/Kit_Bldg_SFE_L4_A/Material/MI/MI_SFE_L4_A1_CornerExR_01_1.MI_SFE_L4_A1_CornerExR_01_1",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFE_L4_A1_CornerExR_01_1_d29fd877.MI_Night_MI_SFE_L4_A1_CornerExR_01_1_d29fd877",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.4791004806591896,
+      "AmountOff": 0.7234126802471961,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/E/Kit_Bldg_SFE_L4_A/Material/MI/MI_SFE_L4_A1_CornerEx_01_1.MI_SFE_L4_A1_CornerEx_01_1",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFE_L4_A1_CornerEx_01_1_d0b779ce.MI_Night_MI_SFE_L4_A1_CornerEx_01_1_d0b779ce",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.4761219195849544,
+      "AmountOff": 0.7222957198443579,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/E/Kit_Bldg_SFE_L2_A/Material/MI/MI_SFE_L2_A1_Wall_01_2.MI_SFE_L2_A1_Wall_01_2",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFE_L2_A1_Wall_01_2_2711be2d.MI_Night_MI_SFE_L2_A1_Wall_01_2_2711be2d",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.2110421911955442,
+      "AmountOff": 0.6228908216983291,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/E/Kit_Bldg_SFE_L2_A/Material/MI/MI_SFE_L2_A1_CornerEx_01_2.MI_SFE_L2_A1_CornerEx_01_2",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFE_L2_A1_CornerEx_01_2_ad040b06.MI_Night_MI_SFE_L2_A1_CornerEx_01_2_ad040b06",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.4203410391393911,
+      "AmountOff": 0.7013778896772717,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/E/Kit_Bldg_SFE_L2_A/Material/MI/MI_SFE_L2_A1_Entrance_03_1.MI_SFE_L2_A1_Entrance_03_1",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFE_L2_A1_Entrance_03_1_1c01e713.MI_Night_MI_SFE_L2_A1_Entrance_03_1_1c01e713",
+    "storefront": true,
+    "values": {
+      "Exposure": 2.05,
+      "AmountOff": 0.22,
+      "BlindsBrightness": 0.8
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/E/Kit_Bldg_SFE_L2_A/Material/MI/MI_SFE_L2_A1_Entrance_02_2.MI_SFE_L2_A1_Entrance_02_2",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFE_L2_A1_Entrance_02_2_cfbb0ab2.MI_Night_MI_SFE_L2_A1_Entrance_02_2_cfbb0ab2",
+    "storefront": true,
+    "values": {
+      "Exposure": 2.05,
+      "AmountOff": 0.22,
+      "BlindsBrightness": 0.8
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/E/Kit_Bldg_SFE_L2_A/Material/MI/MI_SFE_L2_A1_Entrance_01_1.MI_SFE_L2_A1_Entrance_01_1",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFE_L2_A1_Entrance_01_1_f245ba74.MI_Night_MI_SFE_L2_A1_Entrance_01_1_f245ba74",
+    "storefront": true,
+    "values": {
+      "Exposure": 2.05,
+      "AmountOff": 0.22,
+      "BlindsBrightness": 0.8
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/E/Kit_Bldg_SFE_L1_A/Material/MI/MI_SFE_L1_A1_Entrance_03_2.MI_SFE_L1_A1_Entrance_03_2",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFE_L1_A1_Entrance_03_2_e964af88.MI_Night_MI_SFE_L1_A1_Entrance_03_2_e964af88",
+    "storefront": true,
+    "values": {
+      "Exposure": 2.05,
+      "AmountOff": 0.22,
+      "BlindsBrightness": 0.8
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/E/Kit_Bldg_SFE_L1_A/Material/MI/MI_SFE_L1_A1_Entrance_02_2.MI_SFE_L1_A1_Entrance_02_2",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFE_L1_A1_Entrance_02_2_adce38ae.MI_Night_MI_SFE_L1_A1_Entrance_02_2_adce38ae",
+    "storefront": true,
+    "values": {
+      "Exposure": 2.05,
+      "AmountOff": 0.22,
+      "BlindsBrightness": 0.8
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/E/Kit_Bldg_SFE_L1_A/Material/MI/MI_SFE_L1_A1_Entrance_01_2.MI_SFE_L1_A1_Entrance_01_2",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFE_L1_A1_Entrance_01_2_73b37c48.MI_Night_MI_SFE_L1_A1_Entrance_01_2_73b37c48",
+    "storefront": true,
+    "values": {
+      "Exposure": 2.05,
+      "AmountOff": 0.22,
+      "BlindsBrightness": 0.8
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/E/Kit_Bldg_SFE_L1_A/Material/MI/MI_SFE_L1_A1_Wall_01_2.MI_SFE_L1_A1_Wall_01_2",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFE_L1_A1_Wall_01_2_115cacf6.MI_Night_MI_SFE_L1_A1_Wall_01_2_115cacf6",
+    "storefront": true,
+    "values": {
+      "Exposure": 2.05,
+      "AmountOff": 0.22,
+      "BlindsBrightness": 0.8
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/E/Kit_Bldg_SFE_L1_A/Material/MI/MI_SFE_L1_A1_Wall_02_2.MI_SFE_L1_A1_Wall_02_2",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFE_L1_A1_Wall_02_2_d5c6358d.MI_Night_MI_SFE_L1_A1_Wall_02_2_d5c6358d",
+    "storefront": true,
+    "values": {
+      "Exposure": 2.05,
+      "AmountOff": 0.22,
+      "BlindsBrightness": 0.8
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/D/Kit_Bldg_SFD_L2_A/Material/MI/MI_SFD_L02_A_CornerExL_01_0.MI_SFD_L02_A_CornerExL_01_0",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFD_L02_A_CornerExL_01_0_3fbdac28.MI_Night_MI_SFD_L02_A_CornerExL_01_0_3fbdac28",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.2495925841153581,
+      "AmountOff": 0.6373472190432593,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/D/Kit_Bldg_SFD_L2_A/Material/MI/MI_SFD_L02_A_CornerExR_01_0.MI_SFD_L02_A_CornerExR_01_0",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFD_L02_A_CornerExR_01_0_87d80d6f.MI_Night_MI_SFD_L02_A_CornerExR_01_0_87d80d6f",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.362259098191806,
+      "AmountOff": 0.6795971618219272,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/D/Kit_Bldg_SFD_L2_A/Material/MI/MI_SFD_L02_A_Wall_10_1.MI_SFD_L02_A_Wall_10_1",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFD_L02_A_Wall_10_1_f5eb7d45.MI_Night_MI_SFD_L02_A_Wall_10_1_f5eb7d45",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.5342526894026092,
+      "AmountOff": 0.7440947585259785,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/D/Kit_Bldg_SFD_L2_A/Material/MI/MI_SFD_L02_A_CornerEx_1.MI_SFD_L02_A_CornerEx_1",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFD_L02_A_CornerEx_1_0bf9def2.MI_Night_MI_SFD_L02_A_CornerEx_1_0bf9def2",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.1687075608453497,
+      "AmountOff": 0.6070153353170061,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/D/Kit_Bldg_SFD_L2_A/Material/MI/MI_SFD_L02_A_Wall_09_2.MI_SFD_L02_A_Wall_09_2",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFD_L02_A_Wall_09_2_415e9473.MI_Night_MI_SFD_L02_A_Wall_09_2_415e9473",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.252137788967727,
+      "AmountOff": 0.6383016708628977,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/D/Kit_Bldg_SFD_L2_A/Material/MI/MI_SFD_L02_A_WallR_01_1.MI_SFD_L02_A_WallR_01_1",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFD_L02_A_WallR_01_1_4656c29a.MI_Night_MI_SFD_L02_A_WallR_01_1_4656c29a",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.2599015793087662,
+      "AmountOff": 0.6412130922407874,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/D/Kit_Bldg_SFD_L2_A/Material/MI/MI_SFD_L02_A_WallL_01_0.MI_SFD_L02_A_WallL_01_0",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFD_L02_A_WallL_01_0_25c84f4f.MI_Night_MI_SFD_L02_A_WallL_01_0_25c84f4f",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.209034103913939,
+      "AmountOff": 0.6221377889677271,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/D/Kit_Bldg_SFD_L1_A/Material/MI/MI_SFD_L01_A_Wall_10_1.MI_SFD_L01_A_Wall_10_1",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFD_L01_A_Wall_10_1_8547e6c2.MI_Night_MI_SFD_L01_A_Wall_10_1_8547e6c2",
+    "storefront": true,
+    "values": {
+      "Exposure": 2.05,
+      "AmountOff": 0.22,
+      "BlindsBrightness": 0.8
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/D/Kit_Bldg_SFD_L1_A/Material/MI/MI_SFD_L01_A_WallL_01_1.MI_SFD_L01_A_WallL_01_1",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFD_L01_A_WallL_01_1_68bce3a1.MI_Night_MI_SFD_L01_A_WallL_01_1_68bce3a1",
+    "storefront": true,
+    "values": {
+      "Exposure": 2.05,
+      "AmountOff": 0.22,
+      "BlindsBrightness": 0.8
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/D/Kit_Bldg_SFD_L1_A/Material/MI/MI_SFD_L01_A_WallR_01_3.MI_SFD_L01_A_WallR_01_3",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFD_L01_A_WallR_01_3_0cf36ba1.MI_Night_MI_SFD_L01_A_WallR_01_3_0cf36ba1",
+    "storefront": true,
+    "values": {
+      "Exposure": 2.05,
+      "AmountOff": 0.22,
+      "BlindsBrightness": 0.8
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/D/Kit_Bldg_SFD_L1_A/Material/MI/MI_SFD_L01_A_CornerExL_01_1.MI_SFD_L01_A_CornerExL_01_1",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFD_L01_A_CornerExL_01_1_e8a398ea.MI_Night_MI_SFD_L01_A_CornerExL_01_1_e8a398ea",
+    "storefront": true,
+    "values": {
+      "Exposure": 2.05,
+      "AmountOff": 0.22,
+      "BlindsBrightness": 0.8
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/D/Kit_Bldg_SFD_L1_A/Material/MI/MI_SFD_L01_A_CornerExR_01_1.MI_SFD_L01_A_CornerExR_01_1",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFD_L01_A_CornerExR_01_1_e18d7661.MI_Night_MI_SFD_L01_A_CornerExR_01_1_e18d7661",
+    "storefront": true,
+    "values": {
+      "Exposure": 2.05,
+      "AmountOff": 0.22,
+      "BlindsBrightness": 0.8
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/D/Kit_Bldg_SFD_L1_A/Material/MI/MI_SFD_L01_A_Wall_09_2.MI_SFD_L01_A_Wall_09_2",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFD_L01_A_Wall_09_2_25a4f126.MI_Night_MI_SFD_L01_A_Wall_09_2_25a4f126",
+    "storefront": true,
+    "values": {
+      "Exposure": 2.05,
+      "AmountOff": 0.22,
+      "BlindsBrightness": 0.8
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/SF/D/Kit_Bldg_SFD_L1_A/Material/MI/MI_SFD_L01_A_Entrance_01_1.MI_SFD_L01_A_Entrance_01_1",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_SFD_L01_A_Entrance_01_1_53d8aabe.MI_Night_MI_SFD_L01_A_Entrance_01_1_53d8aabe",
+    "storefront": true,
+    "values": {
+      "Exposure": 2.05,
+      "AmountOff": 0.22,
+      "BlindsBrightness": 0.8
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L2_A/Material/MI/MI_CHA_L02_A_Entrance_01_2.MI_CHA_L02_A_Entrance_01_2",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L02_A_Entrance_01_2_08e1bb68.MI_Night_MI_CHA_L02_A_Entrance_01_2_08e1bb68",
+    "storefront": true,
+    "values": {
+      "Exposure": 2.05,
+      "AmountOff": 0.22,
+      "BlindsBrightness": 0.8
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L6_A/Material/MI/MI_CHA_L06_A_Wall_02_1.MI_CHA_L06_A_Wall_02_1",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L06_A_Wall_02_1_2a8997ad.MI_Night_MI_CHA_L06_A_Wall_02_1_2a8997ad",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.2164621957732509,
+      "AmountOff": 0.624923323414969,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L6_A/Material/MI/MI_CHA_L06_A_Wall_01_0.MI_CHA_L06_A_Wall_01_0",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L06_A_Wall_01_0_fc53c6d3.MI_Night_MI_CHA_L06_A_Wall_01_0_fc53c6d3",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.544262607766842,
+      "AmountOff": 0.7478484779125658,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L5_A/Material/MI/MI_CHA_L05_A_Wall_01_2.MI_CHA_L05_A_Wall_01_2",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L05_A_Wall_01_2_641a312d.MI_Night_MI_CHA_L05_A_Wall_01_2_641a312d",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.306411078049897,
+      "AmountOff": 0.6586541542687113,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L4_A/Material/MI/MI_CHA_L04_A_Wall_01_2.MI_CHA_L04_A_Wall_01_2",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L04_A_Wall_01_2_13d77ed3.MI_Night_MI_CHA_L04_A_Wall_01_2_13d77ed3",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.1810002288853283,
+      "AmountOff": 0.6116250858319981,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L3_A/Material/MI/MI_CHA_L03_A_Wall_01_1.MI_CHA_L03_A_Wall_01_1",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L03_A_Wall_01_1_ce42f2c7.MI_Night_MI_CHA_L03_A_Wall_01_1_ce42f2c7",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.4722827496757458,
+      "AmountOff": 0.7208560311284047,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L2_A/Material/MI/MI_CHA_L02_A_Wall_01_1.MI_CHA_L02_A_Wall_01_1",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L02_A_Wall_01_1_f660bcbf.MI_Night_MI_CHA_L02_A_Wall_01_1_f660bcbf",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.5349668116273747,
+      "AmountOff": 0.7443625543602654,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L20_A/Material/MI/MI_CHA_L20_A_Wall_02_0.MI_CHA_L20_A_Wall_02_0",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L20_A_Wall_02_0_92958238.MI_Night_MI_CHA_L20_A_Wall_02_0_92958238",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.3790379186694133,
+      "AmountOff": 0.68588921950103,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L20_A/Material/MI/MI_CHA_L20_A_Wall_01_1.MI_CHA_L20_A_Wall_01_1",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L20_A_Wall_01_1_d5effc0f.MI_Night_MI_CHA_L20_A_Wall_01_1_d5effc0f",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.4842763408865491,
+      "AmountOff": 0.7253536278324559,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L20_A/Material/MI/MI_CHA_L20_A_Rotunda_02_3.MI_CHA_L20_A_Rotunda_02_3",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L20_A_Rotunda_02_3_b5bce0ac.MI_Night_MI_CHA_L20_A_Rotunda_02_3_b5bce0ac",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.4339642938887618,
+      "AmountOff": 0.7064866102082856,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L20_A/Material/MI/MI_CHA_L20_A_Column_02_3.MI_CHA_L20_A_Column_02_3",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L20_A_Column_02_3_45810707.MI_Night_MI_CHA_L20_A_Column_02_3_45810707",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.2586015106431676,
+      "AmountOff": 0.6407255664911878,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L18_A/Material/MI/MI_CHA_L18_A_Wall_02_0.MI_CHA_L18_A_Wall_02_0",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L18_A_Wall_02_0_394cb5ab.MI_Night_MI_CHA_L18_A_Wall_02_0_394cb5ab",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.2395277332722971,
+      "AmountOff": 0.6335728999771114,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L18_A/Material/MI/MI_CHA_L18_A_Wall_01_0.MI_CHA_L18_A_Wall_01_0",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L18_A_Wall_01_0_90af2437.MI_Night_MI_CHA_L18_A_Wall_01_0_90af2437",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.3760715648126953,
+      "AmountOff": 0.6847768368047608,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L18_A/Material/MI/MI_CHA_L18_A_Rotunda_01_3.MI_CHA_L18_A_Rotunda_01_3",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L18_A_Rotunda_01_3_c7de06ab.MI_Night_MI_CHA_L18_A_Rotunda_01_3_c7de06ab",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.4622972457465475,
+      "AmountOff": 0.7171114671549553,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L18_A/Material/MI/MI_CHA_L18_A_CornerEx_01_1.MI_CHA_L18_A_CornerEx_01_1",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L18_A_CornerEx_01_1_21df921e.MI_Night_MI_CHA_L18_A_CornerEx_01_1_21df921e",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.2029243915465018,
+      "AmountOff": 0.6198466468299382,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L17_A/Material/MI/MI_CHA_L17_A_Wall_02_0.MI_CHA_L17_A_Wall_02_0",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L17_A_Wall_02_0_aeec8c08.MI_Night_MI_CHA_L17_A_Wall_02_0_aeec8c08",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.4233196002136261,
+      "AmountOff": 0.7024948500801098,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L17_A/Material/MI/MI_CHA_L17_A_Wall_01_2.MI_CHA_L17_A_Wall_01_2",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L17_A_Wall_01_2_0bfffce6.MI_Night_MI_CHA_L17_A_Wall_01_2_0bfffce6",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.168744182497902,
+      "AmountOff": 0.6070290684367132,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L15_A/Material/MI/MI_CHA_L15_A_Wall_01_2.MI_CHA_L15_A_Wall_01_2",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L15_A_Wall_01_2_9de0acf2.MI_Night_MI_CHA_L15_A_Wall_01_2_9de0acf2",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.396683451590753,
+      "AmountOff": 0.6925062943465323,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L14_A/Material/MI/MI_CHA_L14_A_Wall_01_2.MI_CHA_L14_A_Wall_01_2",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L14_A_Wall_01_2_91b7427e.MI_Night_MI_CHA_L14_A_Wall_01_2_91b7427e",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.3776829175249865,
+      "AmountOff": 0.68538109407187,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L11_A/Material/MI/MI_CHA_L11_A_Wall_01_2.MI_CHA_L11_A_Wall_01_2",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L11_A_Wall_01_2_6be055eb.MI_Night_MI_CHA_L11_A_Wall_01_2_6be055eb",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.3185572594796673,
+      "AmountOff": 0.6632089723048752,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L11_A/Material/MI/MI_CHA_L11_A_Rotunda_01_1.MI_CHA_L11_A_Rotunda_01_1",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L11_A_Rotunda_01_1_2ed163b2.MI_Night_MI_CHA_L11_A_Rotunda_01_1_2ed163b2",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.2231517509727625,
+      "AmountOff": 0.627431906614786,
+      "BlindsBrightness": 0.5
+    }
+  },
+  {
+    "source": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L9_A/Material/MI/MI_CHA_L09_A_Wall_01_1.MI_CHA_L09_A_Wall_01_1",
+    "override": "/Game/Environment/CityDistrict10x/Materials/MI_Night_MI_CHA_L09_A_Wall_01_1_97d9966e.MI_Night_MI_CHA_L09_A_Wall_01_1_97d9966e",
+    "storefront": false,
+    "values": {
+      "Exposure": 1.387265583276112,
+      "AmountOff": 0.688974593728542,
+      "BlindsBrightness": 0.5
+    }
+  }
+]

@@ -1,0 +1,77 @@
+# Unreal generated data and packaged builds
+**/Binaries/
+**/Intermediate/
+**/Saved/
+**/DerivedDataCache/
+artifacts/
+*.app/
+*.dSYM/
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.xcworkspace/
+*.xcodeproj/
+# Local automation and credentials
+.codex/
+.agents/
+.claude/
+.cursor/
+AGENTS.md
+CLAUDE.md
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Python caches
+__pycache__/
+*.py[cod]
+# Keep required Unreal platform resources in Build/
+
+# Public source: acquire these assets separately; generated derivatives stay local.
+/SourceAssets/
+/ParadiseHeat/Content/CitySampleBuildings/
+/ParadiseHeat/Content/VehicleVarietyVol2/
+/ParadiseHeat/Content/Scanned3DPeoplePack/
+/ParadiseHeat/Content/Mz3/
+/ParadiseHeat/Content/Characters/ScannedPlayer/
+/ParadiseHeat/Content/Vehicles/Motorcycles/
+/ParadiseHeat/Content/Vehicles/Player/Entry/
+/ParadiseHeat/Content/Environment/StreetLights/
+/ParadiseHeat/Content/Environment/StreetTrees/
+/ParadiseHeat/Content/Environment/CityDistrict10x/Materials/
+/ParadiseHeat/Content/Environment/CityDistrict10x/DayMaterials/
+/ParadiseHeat/Content/Audio/LocalPrototype/
+/ParadiseHeat/Content/Audio/Vehicles/
+
+# Internal review documents are not part of the public tutorial.
+/ASSET_AUDIT.md
+/Docs/ASSET_PROVENANCE.md
+/Docs/PUBLIC_SOURCE_MANIFEST.md
+/InternalReview/
+
+# Local credentials, signing identities and raw source imports
+.aws/
+.ssh/
+.gnupg/
+*.p12
+*.pfx
+*.mobileprovision
+*.keystore
+*.jks
+*.FBX
+*.fbx
+
+# Local import-file placeholders and private security review output
+/ParadiseHeat/Content/SourceImports/
+/SECURITY_REVIEW.md
