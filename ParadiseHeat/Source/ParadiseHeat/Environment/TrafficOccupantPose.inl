@@ -1,3 +1,5 @@
+#pragma once
+
 static bool PoseTrafficOccupant(UPoseableMeshComponent* RiderVisual, USkeletalMesh* Mesh, bool Bike, FVector WheelCenter=FVector(44,0,50), float SteeringDegrees=0.f, FVector WheelAxis=FVector(.889f,0,-.458f), bool FirstPerson=false)
 {
  if(!Mesh)return false;
