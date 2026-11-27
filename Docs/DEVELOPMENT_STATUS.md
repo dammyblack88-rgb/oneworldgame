@@ -2,41 +2,38 @@
 
 Last updated: 2026-11-27
 
-## Verified repository facts
+## Active direction
 
-- Repository: `dammyblack88-rgb/oneworldgame`.
-- Working branch: `one-world/foundation`.
-- Unreal project descriptor is associated with Engine 5.8.
-- Existing C++ module remains named `ParadiseHeat` to avoid breaking Unreal module and asset references during the identity transition.
-- Existing third-party notices remain in `Docs/ATTRIBUTION.md`.
-- Unreal project display metadata now identifies the game as ONE WORLD.
+- Active development branch: `one-world/godot-transition`.
+- Active engine direction: Godot 4, using the Compatibility renderer as a conservative starting point for lower-end hardware.
+- Godot project: `Godot/ONE_WORLD/project.godot`.
+- The inherited Unreal project remains preserved under `ParadiseHeat/`; earlier Unreal foundation work remains on `one-world/foundation`.
+- No Unreal project files have been deleted or rewritten by this transition.
 
-## Implemented in the foundation branch
+## Implemented in the Godot transition branch
 
-- ONE WORLD project identity, product pillars and staged roadmap.
-- Data-driven region content contract with Lagos (`ng_lagos`) as the first region.
-- `UOneWorldNeedsComponent`: six tunable needs (hunger, energy, hygiene, social, fun and bladder), per-minute decay, clamped setters/restoration and lowest-need query.
-- `UOneWorldRegionData`: a Primary Data Asset schema for region identity and district entries.
-- `UOneWorldEconomyComponent`: integer wallet balance, starting balance, add funds, affordability check, guarded spending and a balance-changed event.
+- Initial Godot project configuration and main scene.
+- Basic third-person CharacterBody3D movement, mouse look, jump and camera rig.
+- Player state component with six needs (hunger, energy, hygiene, social, fun and bladder), configurable per-minute decay, clamped restore/set methods and lowest-need query.
+- Integer wallet with guarded spending, affordability checks and add-funds method.
+- Setup and scope notes in `Godot/ONE_WORLD/README.md`.
 
-These are foundational C++ building blocks. They are not yet attached to a playable character Blueprint or a HUD, and persistence/network replication is not implemented.
+## Important limitations
 
-## Not yet verified
+- The Godot project has not yet been opened, imported, run or tested in the Godot editor in this environment.
+- No compiled or packaged build has been produced.
+- The scene is a technical movement test, not a Lagos environment.
+- No HUD, save/load, interaction framework, NPCs, transport, traffic, multiplayer or production assets are implemented yet.
+- The Godot scripts and scene need editor validation before being treated as working.
 
-- Unreal Editor compilation.
-- Packaged Windows build.
-- Startup map and actual in-game Lagos environment.
-- Needs/economy UI and save/load.
-- NPC routines, transport gameplay and multiplayer.
-- Performance at target NPC counts.
+## Next steps
 
-## Immediate next steps
+1. User installs Godot 4 Standard (no .NET build required for the current GDScript project).
+2. Open `Godot/ONE_WORLD/project.godot` in Godot and run the main scene.
+3. Fix any import/parser/runtime issues found in the editor.
+4. Add a small Lagos district blockout and an interaction framework.
+5. Add a readable needs/wallet HUD and save/load.
+6. Introduce a first activity loop and pedestrian prototype.
+7. Establish repeatable smoke tests and a performance baseline.
 
-1. Open `ParadiseHeat/ParadiseHeat.uproject` with Unreal Engine 5.8.
-2. Generate project files and compile the editor target.
-3. Resolve compile errors before adding gameplay dependencies.
-4. Add the needs and wallet components to the player character Blueprint.
-5. Build a small Lagos test district, then connect an interaction/activity loop.
-6. Add automated smoke tests and capture a packaged-build baseline.
-
-Do not describe ONE WORLD as field-ready or fully playable until these checks pass.
+Do not describe ONE WORLD as fully playable or production-ready until these checks pass.
