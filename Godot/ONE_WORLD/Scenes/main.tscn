@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3]
+[gd_scene load_steps=6 format=3]
 
 [ext_resource type="Script" path="res://Scripts/player_controller.gd" id="1_player"]
 [ext_resource type="Script" path="res://Scripts/player_state.gd" id="2_state"]
@@ -6,13 +6,18 @@
 [sub_resource type="BoxShape3D" id="BoxShape_floor"]
 size = Vector3(40, 1, 40)
 
+[sub_resource type="BoxMesh" id="BoxMesh_ground"]
+size = Vector3(40, 1, 40)
+
 [sub_resource type="CapsuleShape3D" id="Capsule_player"]
 radius = 0.45
 height = 1.8
 
-[node name="ONE_WORLD" type="Node3D"]
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_player"]
+radius = 0.45
+height = 1.8
 
-[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+[node name="ONE_WORLD" type="Node3D"]
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 rotation = Vector3(-0.9, -0.6, 0)
@@ -25,8 +30,7 @@ position = Vector3(0, -0.5, 0)
 shape = SubResource("BoxShape_floor")
 
 [node name="GroundVisual" type="MeshInstance3D" parent="Ground"]
-mesh = BoxMesh.new()
-position = Vector3(0, 0, 0)
+mesh = SubResource("BoxMesh_ground")
 
 [node name="Player" type="CharacterBody3D" parent="."]
 position = Vector3(0, 1, 0)
@@ -36,8 +40,7 @@ script = ExtResource("1_player")
 shape = SubResource("Capsule_player")
 
 [node name="Visual" type="MeshInstance3D" parent="Player"]
-mesh = CapsuleMesh.new()
-position = Vector3(0, 0, 0)
+mesh = SubResource("CapsuleMesh_player")
 
 [node name="CameraPivot" type="Node3D" parent="Player"]
 position = Vector3(0, 0.6, 0)
