@@ -18,10 +18,6 @@ void UOneWorldNeedsComponent::Drain(float& Value, const float RatePerMinute, con
 void UOneWorldNeedsComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
     Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-    if (GetOwner() && GetOwner()->GetNetMode() == NM_DedicatedServer)
-    {
-        // Dedicated-server authority is retained for a future multiplayer implementation.
-    }
     Drain(Hunger, HungerLossPerMinute, DeltaTime);
     Drain(Energy, EnergyLossPerMinute, DeltaTime);
     Drain(Hygiene, HygieneLossPerMinute, DeltaTime);
@@ -32,7 +28,13 @@ void UOneWorldNeedsComponent::TickComponent(float DeltaTime, ELevelTick TickType
 
 void UOneWorldNeedsComponent::RestoreNeed(const FName NeedId, const float Amount)
 {
-    SetNeed(NeedId, GetNeed(NeedId) + FMath::Max(0.0f, Amount));
+    const float Increase = FMath::Max(0.0f, Amount);
+    if (NeedId == TEXT("Hunger")) Hunger = FMath::Clamp(Hunger + Increase, 0.0f, 100.0f);
+    else if (NeedId == TEXT("Energy")) Energy = FMath::Clamp(Energy + Increase, 0.0f, 100.0f);
+    else if (NeedId == TEXT("Hygiene")) Hygiene = FMath::Clamp(Hygiene + Increase, 0.0f, 100.0f);
+    else if (NeedId == TEXT("Social")) Social = FMath::Clamp(Social + Increase, 0.0f, 100.0f);
+    else if (NeedId == TEXT("Fun")) Fun = FMath::Clamp(Fun + Increase, 0.0f, 100.0f);
+    else if (NeedId == TEXT("Bladder")) Bladder = FMath::Clamp(Bladder + Increase, 0.0f, 100.0f);
 }
 
 void UOneWorldNeedsComponent::SetNeed(const FName NeedId, const float Value)
