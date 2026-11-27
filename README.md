@@ -1,17 +1,20 @@
 # ONE WORLD
 
-**LIVE · EXPLORE · BELONG**
+**LIVE · EXPLORE · BELONG**  
+*One universe. Countless lives.*
 
 ONE WORLD is a living-world game by **SimeonJr Studios**. Development begins in Lagos, Nigeria, with a data-driven world architecture intended to expand across all 36 Nigerian states and the Federal Capital Territory, then internationally.
 
-## Foundation
+## Current engine direction
 
-This project continues from the public [Paradise Heat](https://github.com/shahriarsajeeb/Paradise-Heat) Unreal Engine foundation. The existing Unreal project and its third-party notices are retained. The current project association is Unreal Engine 5.8.
+**Godot 4 is the selected engine for active development.** The new project is in `Godot/` and uses GDScript with the Compatibility renderer as a lower-hardware starting point.
 
-- Engine: Unreal Engine 5.8
-- Primary implementation: C++
-- Editor automation: Python
-- Active development branch: `one-world/foundation`
+- Engine: Godot 4.x
+- Primary implementation: GDScript
+- Active development branch: `one-world/godot-foundation`
+- Project entry: `Godot/project.godot`
+
+The original Unreal Engine project is retained under `ParadiseHeat/` for provenance and reference. It is not the active project and is not required to run the Godot version. No Unreal source has been deleted.
 
 ## Product pillars
 
@@ -36,7 +39,6 @@ Build a small, coherent and testable Lagos district before claiming city-wide co
 ## Development principles
 
 - Preserve upstream code and attribution; use focused commits and feature branches.
-- Do not replace Unreal with a browser stack without an explicit architecture decision.
 - Never present placeholders or untested systems as finished gameplay.
 - Track provenance and licences for every external asset.
 - Establish performance budgets before scaling NPC counts.
@@ -44,10 +46,11 @@ Build a small, coherent and testable Lagos district before claiming city-wide co
 
 ## Repository map
 
-- `ParadiseHeat/` — Unreal project and existing source/content.
+- `Godot/` — active Godot project and starter prototype.
+- `ParadiseHeat/` — retained Unreal project/reference; inactive for current development.
 - `Docs/ATTRIBUTION.md` — inherited third-party notices.
 - `Docs/ONE_WORLD_ROADMAP.md` — product milestones.
-- `Docs/DEVELOPMENT_STATUS.md` — verified implementation status.
+- `Docs/DEVELOPMENT_STATUS.md` — implementation and verification status.
 - `Docs/REGION_DATA_CONTRACT.md` — regional content conventions.
 
 **Built by Afolabi Oluwadamilare Simeon — SimeonJr Studios.**
