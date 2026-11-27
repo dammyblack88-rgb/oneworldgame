@@ -1,0 +1,16 @@
+{
+  "region_id": "ng_lagos",
+  "display_name": "Lagos",
+  "country_id": "ng",
+  "state_id": "lagos",
+  "currency_code": "NGN",
+  "timezone": "Africa/Lagos",
+  "districts": [
+    {
+      "district_id": "pilot_street",
+      "display_name": "Lagos Street Pilot",
+      "status": "blockout",
+      "content_note": "Temporary greybox area for movement and systems testing; not a finished representation of a real neighbourhood."
+    }
+  ]
+}
