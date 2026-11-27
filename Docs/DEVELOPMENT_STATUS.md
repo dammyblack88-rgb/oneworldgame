@@ -2,41 +2,40 @@
 
 Last updated: 2026-11-27
 
-## Verified repository facts
+## Current direction
 
-- Repository: `dammyblack88-rgb/oneworldgame`.
-- Working branch: `one-world/foundation`.
-- Unreal project descriptor is associated with Engine 5.8.
-- Existing C++ module remains named `ParadiseHeat` to avoid breaking Unreal module and asset references during the identity transition.
-- Existing third-party notices remain in `Docs/ATTRIBUTION.md`.
-- Unreal project display metadata now identifies the game as ONE WORLD.
+- Active engine: Godot 4.x.
+- Active development branch: `one-world/godot-foundation`.
+- Godot project entry point: `Godot/project.godot`.
+- Renderer: Compatibility (chosen as a conservative starting point for lower-end hardware).
+- The previous Unreal Engine project remains preserved under `ParadiseHeat/`; it is inactive and not required to run the Godot project.
 
-## Implemented in the foundation branch
+## Implemented in the Godot foundation branch
 
-- ONE WORLD project identity, product pillars and staged roadmap.
-- Data-driven region content contract with Lagos (`ng_lagos`) as the first region.
-- `UOneWorldNeedsComponent`: six tunable needs (hunger, energy, hygiene, social, fun and bladder), per-minute decay, clamped setters/restoration and lowest-need query.
-- `UOneWorldRegionData`: a Primary Data Asset schema for region identity and district entries.
-- `UOneWorldEconomyComponent`: integer wallet balance, starting balance, add funds, affordability check, guarded spending and a balance-changed event.
+- Godot project configuration and main scene.
+- Third-person CharacterBody3D controller with mouse look, WASD movement, sprint and jump.
+- Procedural greybox environment with ground, road, simple buildings and collision.
+- Six character needs with tunable per-minute decay and restoration.
+- NGN wallet with balance checks and guarded spending.
+- Basic HUD showing wallet and all six needs.
+- Initial Lagos region JSON data.
 
-These are foundational C++ building blocks. They are not yet attached to a playable character Blueprint or a HUD, and persistence/network replication is not implemented.
+## Verification status
 
-## Not yet verified
+The project files have been committed to GitHub, but have **not yet been opened or run in the user's local Godot installation**. GDScript parsing, runtime behavior, input bindings, collision and performance remain to be checked. The current environment is a greybox prototype, not final Lagos art or a completed playable vertical slice.
 
-- Unreal Editor compilation.
-- Packaged Windows build.
-- Startup map and actual in-game Lagos environment.
-- Needs/economy UI and save/load.
-- NPC routines, transport gameplay and multiplayer.
-- Performance at target NPC counts.
+## Preserved Unreal work
+
+The original `ParadiseHeat/` project and its attribution notices remain in the repository as a reference/archive. Do not delete or overwrite this folder during the engine transition.
 
 ## Immediate next steps
 
-1. Open `ParadiseHeat/ParadiseHeat.uproject` with Unreal Engine 5.8.
-2. Generate project files and compile the editor target.
-3. Resolve compile errors before adding gameplay dependencies.
-4. Add the needs and wallet components to the player character Blueprint.
-5. Build a small Lagos test district, then connect an interaction/activity loop.
-6. Add automated smoke tests and capture a packaged-build baseline.
+1. Import `Godot/project.godot` into the installed Godot 4 editor.
+2. Run the project and fix any parser/runtime issues reported by the editor.
+3. Record the exact Godot version and test the prototype on the target PC.
+4. Add interaction prompts and a reusable interaction interface.
+5. Add save/load for player needs and wallet.
+6. Replace greybox buildings with properly sourced, Lagos-authentic assets.
+7. Add NPC pedestrians, routines and a first public transport interaction.
 
-Do not describe ONE WORLD as field-ready or fully playable until these checks pass.
+Do not describe the prototype as tested, polished, fully playable or complete until those checks pass.
