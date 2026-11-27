@@ -7,20 +7,23 @@ A persistent-feeling, systemic social world in which players create lives and st
 ## Stage 0 — Project stewardship
 
 - [x] Establish a dedicated development branch.
-- [x] Preserve the inherited Unreal Engine project and attribution.
-- [x] Establish ONE WORLD identity and project documentation.
-- [ ] Open and build the project in the target Unreal Engine 5.8 installation.
-- [ ] Record baseline packaged-build performance and known issues.
+- [x] Preserve inherited Unreal project and attribution.
+- [x] Establish ONE WORLD identity and staged roadmap.
+- [x] Establish a separate Godot 4 implementation workspace.
+- [ ] Open and validate the Godot project in the editor.
+- [ ] Record a repeatable runtime and performance baseline.
 
 ## Stage 1 — Playable Lagos foundation
 
-- [ ] Confirm a clean editor build and playable startup map.
+- [x] Create initial Godot project and player movement prototype.
+- [x] Add six-need and wallet gameplay foundations.
+- [ ] Validate project import and runtime in Godot.
 - [ ] Create a small representative Lagos district with clear boundaries.
-- [ ] Player profile, six needs, money and save/load.
-- [ ] Interactable locations and simple activity loop.
-- [ ] Basic pedestrian schedules and local ambient activity.
-- [ ] First Danfo/Keke passenger interaction.
-- [ ] Keyboard and controller input validation.
+- [ ] Add needs/money HUD and save/load.
+- [ ] Add interactable locations and a simple activity loop.
+- [ ] Add basic pedestrian schedules and ambient activity.
+- [ ] Add first Danfo/Keke passenger interaction.
+- [ ] Validate keyboard/controller input.
 
 ## Stage 2 — Living city systems
 
