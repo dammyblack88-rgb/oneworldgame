@@ -4,14 +4,11 @@
 
 ONE WORLD is a living-world game by **SimeonJr Studios**. Development begins in Lagos, Nigeria, with a data-driven world architecture intended to expand across all 36 Nigerian states and the Federal Capital Territory, then internationally.
 
-## Foundation
+## Active engine direction
 
-This project continues from the public [Paradise Heat](https://github.com/shahriarsajeeb/Paradise-Heat) Unreal Engine foundation. The existing Unreal project and its third-party notices are retained. The current project association is Unreal Engine 5.8.
+The active implementation direction is **Godot 4**. The Godot project is located at `Godot/ONE_WORLD/`.
 
-- Engine: Unreal Engine 5.8
-- Primary implementation: C++
-- Editor automation: Python
-- Active development branch: `one-world/foundation`
+The inherited Unreal Engine project is retained in `ParadiseHeat/` and its earlier work remains available on `one-world/foundation`. It has not been deleted or merged into the Godot project. This transition branch is the active Godot implementation workspace.
 
 ## Product pillars
 
@@ -36,7 +33,6 @@ Build a small, coherent and testable Lagos district before claiming city-wide co
 ## Development principles
 
 - Preserve upstream code and attribution; use focused commits and feature branches.
-- Do not replace Unreal with a browser stack without an explicit architecture decision.
 - Never present placeholders or untested systems as finished gameplay.
 - Track provenance and licences for every external asset.
 - Establish performance budgets before scaling NPC counts.
@@ -44,7 +40,8 @@ Build a small, coherent and testable Lagos district before claiming city-wide co
 
 ## Repository map
 
-- `ParadiseHeat/` — Unreal project and existing source/content.
+- `Godot/ONE_WORLD/` — active Godot 4 project.
+- `ParadiseHeat/` — preserved inherited Unreal project.
 - `Docs/ATTRIBUTION.md` — inherited third-party notices.
 - `Docs/ONE_WORLD_ROADMAP.md` — product milestones.
 - `Docs/DEVELOPMENT_STATUS.md` — verified implementation status.
